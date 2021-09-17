@@ -29,7 +29,7 @@ class LineFollow(Node):
         self.prev_error=0
         self.m1=0
         self.m=0
-
+        # auto
         # Time to wait before running
         self.get_logger().info('Waiting to start for {:s}'.format(str(self.start_delay)))
         sleep(self.start_delay)
